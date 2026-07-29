@@ -1,4 +1,4 @@
-![Epoch Revival](icon.png)
+![Epoch Revival](https://raw.githubusercontent.com/YourGitHubUsername/EpochRevival/main/icon.png)
 
 # Epoch Revival
 
