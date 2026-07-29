@@ -409,6 +409,9 @@ FodyWeavers.xsd
 *.RPT
 *.ADM
 
+# Ignore packed output
+addons/*.pbo
+
 # Workbench
 *.wrp.bak
 *.lnk
