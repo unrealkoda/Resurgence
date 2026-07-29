@@ -2,6 +2,8 @@
   <img src="https://github.com/unrealkoda/EpochRevival/blob/main/icon.png?raw=true" alt="Epoch Revival" width="512"/>
 </p>
 
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3773864396)
+
 <h1 align="center">Epoch Revival</h1>
 
 <p align="center">
