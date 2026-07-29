@@ -399,3 +399,20 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# DayZ specific
+*.pbo
+*.pbo.EpochRevival_Core.bisign
+*.bikey
+*.bak
+*.log
+*.RPT
+*.ADM
+
+# Workbench
+*.wrp.bak
+*.lnk
+
+# DayZ Tools
+bin/
+temp/
