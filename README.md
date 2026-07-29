@@ -1,9 +1,12 @@
-![Epoch Revival](https://raw.githubusercontent.com/YourGitHubUsername/EpochRevival/main/icon.png)
+<p align="center">
+  <img src="https://github.com/unrealkoda/EpochRevival/blob/main/icon.png?raw=true" alt="Epoch Revival" width="512"/>
+</p>
 
-# Epoch Revival
+<h1 align="center">Epoch Revival</h1>
 
-A faithful recreation of the DayZ Epoch Arma 2 mod experience, 
-built for DayZ Standalone by Unreal Koda.
+<p align="center">
+  A faithful recreation of the DayZ Epoch Arma 2 mod experience, built for DayZ Standalone by Unreal Koda.
+</p>
 
 ## Vision
 
