@@ -1,3 +1,5 @@
+![Epoch Revival](https://raw.githubusercontent.com/YourGitHubUsername/EpochRevival/main/icon.png)
+
 # Epoch Revival
 
 A faithful recreation of the DayZ Epoch Arma 2 mod experience, 
