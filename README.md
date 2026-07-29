@@ -1,4 +1,4 @@
-![Epoch Revival]([https://github.com/unrealkoda/EpochRevival/blob/main/icon.png?raw=true])
+![Epoch Revival](https://github.com/unrealkoda/EpochRevival/blob/main/icon.png?raw=true]
 
 # Epoch Revival
 
