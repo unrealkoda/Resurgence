@@ -41,6 +41,10 @@ Early development. Updates posted as the project grows.
 - DayZ Standalone
 - ChernarusA2 map by Gex
 
+## Credits
+
+See [CREDITS.md](CREDITS.md) for full attribution.
+
 ## Author
 
 Unreal Koda
