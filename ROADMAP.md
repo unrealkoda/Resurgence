@@ -27,7 +27,7 @@ the original Epoch experience.
 
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.01 | ChernarusA2 map integration and testing | ⬜ Planned |
+| v0.1.01 | ChernarusA2 map integration and testing | 🔵 In Progress |
 | v0.1.02 | Survival stat tuning — hunger, thirst, blood loss rates | ⬜ Planned |
 | v0.1.03 | Loot table overhaul — spawn rates and probabilities | ⬜ Planned |
 | v0.1.04 | Zombie count, aggression, vision and hearing tuning | ⬜ Planned |
