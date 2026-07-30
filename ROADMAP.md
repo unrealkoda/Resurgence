@@ -41,13 +41,13 @@ The first playable version. The core survival loop tuned to feel like a serious 
 | v0.1.03 | Hunger and thirst drain rates | ✅ Complete |
 | v0.1.04 | Blood loss and regeneration rates | ✅ Complete |
 | v0.1.05 | Infection and disease progression rates | ✅ Complete |
-| v0.1.06 | Shock handling and recovery tuning | 🔵 In Progress |
-| v0.1.07 | Temperature and wetness drain rates | ⬜ Planned |
+| v0.1.06 | Shock handling and recovery tuning | ✅ Complete |
+| v0.1.07 | Temperature and wetness drain rates | ✅ Complete |
 
 ### Loot Economy
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.08 | globals.xml tuning — zombie counts, cleanup times, logout penalties | ⬜ Planned |
+| v0.1.08 | globals.xml tuning — zombie counts, cleanup times, logout penalties | 🔵 In Progress |
 | v0.1.09 | types.xml loot table overhaul — spawn rates and probabilities | ⬜ Planned |
 | v0.1.10 | cfgspawnabletypes.xml — item category and location tuning | ⬜ Planned |
 | v0.1.11 | cfglimitsdefinition.xml — item limit balancing | ⬜ Planned |
