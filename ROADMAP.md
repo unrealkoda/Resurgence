@@ -39,8 +39,8 @@ The first playable version. The core survival loop tuned to feel like a serious 
 |---|---|---|
 | v0.1.02 | cfggameplay.json — stamina, weight, lighting, temperature tuning | ✅ Complete |
 | v0.1.03 | Hunger and thirst drain rates | ✅ Complete |
-| v0.1.04 | Blood loss and regeneration rates | 🔵 In Progress |
-| v0.1.05 | Infection and disease progression rates | ⬜ Planned |
+| v0.1.04 | Blood loss and regeneration rates | ✅ Complete |
+| v0.1.05 | Infection and disease progression rates | 🔵 In Progress |
 | v0.1.06 | Shock handling and recovery tuning | ⬜ Planned |
 | v0.1.07 | Temperature and wetness drain rates | ⬜ Planned |
 
