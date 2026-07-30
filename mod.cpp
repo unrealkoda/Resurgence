@@ -1,8 +1,8 @@
-name = "Epoch Revival";
+name = "DayZ Resurgence";
 author = "Unreal Koda";
 version = "0.1";
-picture = "";
-logo = "";
-logoOver = "";
-tooltip = "A faithful recreation of the DayZ Epoch experience";
-overview = "Recreating the DayZ Epoch Arma 2 experience in DayZ Standalone.";
+picture = "Resurgence\icon.paa";
+logo = "Resurgence\icon.paa";
+logoOver = "Resurgence\icon.paa";
+tooltip = "The evolution of the DayZ mod experience";
+overview = "Taking the best of Epoch, Overpoch, Exile and Expansion and building something greater than all of them combined.";
