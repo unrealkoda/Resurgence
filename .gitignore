@@ -419,3 +419,6 @@ addons/*.pbo
 # DayZ Tools
 bin/
 temp/
+
+# Keep loot tables private
+mpmissions/
