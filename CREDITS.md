@@ -1,11 +1,8 @@
 # Epoch Revival — Credits
 
 ## Map
-
-**Gex**
-ChernarusA2 — Arma 2 faithful Chernarus recreation
-https://steamcommunity.com/sharedfiles/filedetails/?id=2846952202
-Licensed under ADPL-SA
+Chernarusplus — Bohemia Interactive
+Vanilla mission files provided with DayZ Standalone
 
 ## Bohemia Interactive
 Original Chernarus terrain and assets
