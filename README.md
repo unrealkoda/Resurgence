@@ -1,50 +1,25 @@
 <p align="center">
-  <img src="https://github.com/unrealkoda/EpochRevival/blob/main/icon.png?raw=true" alt="Epoch Revival" width="512"/>
+  <img src="https://github.com/unrealkoda/Resurgence/blob/main/icon.png?raw=true" alt="DayZ Resurgence" width="512"/>
 </p>
 
-[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3773864396)
-
-<h1 align="center">Epoch Revival</h1>
+<h1 align="center">DayZ Resurgence</h1>
 
 <p align="center">
-  A faithful recreation of the DayZ Epoch Arma 2 mod experience, built for DayZ Standalone by Unreal Koda.
+  The evolution of the DayZ mod experience.<br>
+  Taking the best of Epoch, Overpoch, Exile and Expansion<br>
+  and building something greater than the sum of its parts.
+</p>
+
+<p align="center">
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3773864396">
+    <img src="https://img.shields.io/badge/Steam-Workshop-blue" alt="Steam Workshop"/>
+  </a>
 </p>
 
 ## Vision
 
-Epoch Revival aims to recreate the authentic DayZ Epoch experience 
-that made the original Arma 2 mod legendary. Built on the ChernarusA2 
-map by Gex, with faithful recreation of the systems that defined Epoch.
+DayZ Resurgence is the evolution of the DayZ mod experience. Taking the best of Epoch, Overpoch, Exile and Expansion and building something greater than the sum of its parts. A survival experience where the struggle to stay alive is as deep and meaningful as the world you are fighting to survive in.
 
-## Planned Features
+Built from the ground up for DayZ Standalone by Unreal Koda and contributors.
 
-- Parcel based outfit system with variant tiers
-- Player driven economy with physical currency
-- Trader cities with NPC merchants
-- Plot pole base building ownership system
-- Karma system with visual outfit indicators
-- Helicopter crash site events with AI guardians
-- Roaming AI bandits across the map
-- Epoch faithful medical system
-- Flyable helicopters
-- Armed helicopter turrets
-- Passive huntable wildlife
-- Weight based inventory system
-- Full Epoch style survival tuning
-
-## Development Status
-
-Early development. Updates posted as the project grows.
-
-## Dependencies
-
-- DayZ Standalone
-- ChernarusA2 map by Gex
-
-## Credits
-
-See [CREDITS.md](CREDITS.md) for full attribution.
-
-## Author
-
-Unreal Koda
+📋 [View the full development roadmap](ROADMAP.md)
