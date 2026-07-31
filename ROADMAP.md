@@ -347,6 +347,69 @@ The player driven economy comes online. Survivors have reasons to interact peace
 | v0.5.37 | Hotwiring mechanic for unowned vehicles | ⬜ Planned |
 | v0.5.38 | Vehicle storage and inventory tuning | ⬜ Planned |
 
+### Vehicle System Overhaul
+| Version | Feature | Status |
+|---|---|---|
+| v0.5.39 | Vehicle component condition tracking | ⬜ Planned |
+| v0.5.40 | Component condition persistence across restarts | ⬜ Planned |
+| v0.5.41 | Oil degradation over time and distance | ⬜ Planned |
+| v0.5.42 | Battery degradation over time | ⬜ Planned |
+| v0.5.43 | Spark plug degradation over use | ⬜ Planned |
+| v0.5.44 | Tyre wear from terrain and damage | ⬜ Planned |
+| v0.5.45 | Component condition affecting vehicle performance | ⬜ Planned |
+| v0.5.46 | Dashboard warning indicators in vehicle | ⬜ Planned |
+| v0.5.47 | Component installation state tracking | ⬜ Planned |
+| v0.5.48 | Vehicle cannot be driven until all components properly installed | ⬜ Planned |
+| v0.5.49 | Wheel installation and removal with wrench | ⬜ Planned |
+| v0.5.50 | Battery installation and removal with tools | ⬜ Planned |
+| v0.5.51 | Radiator installation and removal with socket set | ⬜ Planned |
+| v0.5.52 | Hood pop mechanic from driver seat | ⬜ Planned |
+| v0.5.53 | Hood lift interaction from vehicle exterior | ⬜ Planned |
+| v0.5.54 | Engine bay only accessible when hood open | ⬜ Planned |
+| v0.5.55 | Hood flies open at speed if not properly closed | ⬜ Planned |
+| v0.5.56 | Hood open blocks driver vision | ⬜ Planned |
+| v0.5.57 | Tyre pressure tracking per individual tyre | ⬜ Planned |
+| v0.5.58 | Air pressure gauge item | ⬜ Planned |
+| v0.5.59 | Tyre pressure affecting handling and speed | ⬜ Planned |
+| v0.5.60 | Natural tyre pressure loss over time | ⬜ Planned |
+| v0.5.61 | Portable hand pump item for field inflation | ⬜ Planned |
+| v0.5.62 | Air compressor at garages and petrol stations | ⬜ Planned |
+| v0.5.63 | Puncture causing rapid pressure loss | ⬜ Planned |
+| v0.5.64 | Driving on flat permanently damages wheel | ⬜ Planned |
+| v0.5.65 | Vehicle lock system — component access rules | ⬜ Planned |
+| v0.5.66 | Locked vehicle allows wheel removal only | ⬜ Planned |
+| v0.5.67 | Lockpick item variants — improvised, basic, quality, professional | ⬜ Planned |
+| v0.5.68 | Lockpick success chance calculation with modifiers | ⬜ Planned |
+| v0.5.69 | Lockpick consumed on use regardless of success | ⬜ Planned |
+| v0.5.70 | Failed lockpick damages lock over multiple attempts | ⬜ Planned |
+| v0.5.71 | Lockpick sound attracting nearby zombies | ⬜ Planned |
+| v0.5.72 | Hotwire mechanic — interior only | ⬜ Planned |
+| v0.5.73 | Hotwire kit item variants | ⬜ Planned |
+| v0.5.74 | Hotwire success chance with modifiers | ⬜ Planned |
+| v0.5.75 | Ignition damage from failed hotwire attempts | ⬜ Planned |
+| v0.5.76 | Owner notification on vehicle access | ⬜ Planned |
+| v0.5.77 | Vehicle tracking device item | ⬜ Planned |
+| v0.5.78 | Tracking device installation and handheld tracker | ⬜ Planned |
+| v0.5.79 | Tracking device search and removal mechanic | ⬜ Planned |
+| v0.5.80 | Tow rope item and towing mechanic | ⬜ Planned |
+| v0.5.81 | Mechanic outfit repair and lockpick time bonus | ⬜ Planned |
+| v0.5.82 | Petrol versus diesel fuel distinction | ⬜ Planned |
+
+### Garage Locations
+| Version | Feature | Status |
+|---|---|---|
+| v0.5.83 | Military garage zones — full service with safe zone | ⬜ Planned |
+| v0.5.84 | Town garage zones — mid service with safe zone | ⬜ Planned |
+| v0.5.85 | Petrol station zones — basic service with safe zone | ⬜ Planned |
+| v0.5.86 | Player improvised workshop craftable at base | ⬜ Planned |
+| v0.5.87 | Military mechanic NPC — full service | ⬜ Planned |
+| v0.5.88 | Civilian mechanic NPC — mid service | ⬜ Planned |
+| v0.5.89 | Petrol station attendant NPC — basic service | ⬜ Planned |
+| v0.5.90 | Karma affecting mechanic NPC service availability | ⬜ Planned |
+| v0.5.91 | Mechanic NPC currency cost tiers by service | ⬜ Planned |
+| v0.5.92 | Vehicle repair tool spawns in garage locations | ⬜ Planned |
+| v0.5.93 | Fuel pump interaction at petrol stations | ⬜ Planned |
+
 ---
 
 ## v0.6 — Events
