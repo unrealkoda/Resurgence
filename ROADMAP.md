@@ -607,6 +607,43 @@ The full Resurgence experience. A faithful and complete evolution of the classic
 
 ---
 
+## Console Version — DayZ Resurgence Lite
+
+### Important Note
+Console DayZ does not support mods. The console version 
+is a server configuration package applied at the server 
+level. Players join a console server running these configs 
+and experience Resurgence tuning without downloading anything.
+
+### What Console Players Experience
+| Feature | Available |
+|---|---|
+| Survival stat tuning | ✅ Full |
+| Loot economy overhaul | ✅ Full |
+| Zombie tuning | ✅ Full |
+| Animal behaviour tuning | ✅ Full |
+| Weather and temperature | ✅ Full |
+| Medical system tuning | ✅ Full |
+| Globals tuning | ✅ Full |
+| Karma system | ❌ Requires mod scripting |
+| Outfit parcel system | ❌ Requires mod scripting |
+| Energy and sleep system | ❌ Requires mod scripting |
+| Cooking recipe system | ❌ Requires mod scripting |
+| Trader NPC system | ❌ Requires mod scripting |
+| Vehicle overhaul | ❌ Requires mod scripting |
+| Dynamic world events | ❌ Requires mod scripting |
+| Custom HUD elements | ❌ Requires mod scripting |
+
+### Console Milestones
+| Milestone | Task | Status |
+|---|---|---|
+| PC v0.1 complete | Extract console config package from PC work | ⬜ Planned |
+| PC v0.1 complete | Write console README and installation guide | ⬜ Planned |
+| PC v0.1 complete | Publish console package to GitHub | ⬜ Planned |
+| Ongoing | Keep console package updated with PC config changes | ⬜ Planned |
+
+---
+
 ## Beyond v1.0
 
 Features under consideration for post release development:
