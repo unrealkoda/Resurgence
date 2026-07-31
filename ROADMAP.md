@@ -324,7 +324,7 @@ The player driven economy comes online. Survivors have reasons to interact peace
 | v0.5.18 | Tailor NPC framework | ⬜ Planned |
 | v0.5.19 | Tailor outfit crafting menu | ⬜ Planned |
 | v0.5.20 | Crafting material item definitions | ⬜ Planned |
-| v0.5.21 | Fabric scraps spawn in residential areas | ⬜ Planned |
+| v0.5.21 | Fabric scraps spawn — use existing Fabric item, expand to Town and Village | ⬜ Planned |
 | v0.5.22 | Military fabric spawn in military areas | ⬜ Planned |
 | v0.5.23 | Kevlar panel crash site and rare military spawn | ⬜ Planned |
 | v0.5.24 | NBC material acid rain cache and rare military spawn | ⬜ Planned |
