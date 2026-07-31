@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/unrealkoda/EpochRevival/blob/main/icon.png?raw=true" alt="DayZ Resurgence" width="256"/>
+  <img src="https://github.com/unrealkoda/Resurgence/blob/main/icon.png?raw=true" alt="DayZ Resurgence" width="256"/>
 </p>
 
 <h1 align="center">DayZ Resurgence — Development Roadmap</h1>
@@ -14,7 +14,7 @@
 
 ## Current Status
 > 🔧 **Pre-Alpha — Foundation Phase**
-> Core project structure established. Local development server running. Development underway.
+> Core project structure established. Local development server running. Active development underway.
 
 ---
 
@@ -32,7 +32,7 @@ The first playable version. The core survival loop tuned to feel like a serious 
 ### Map and Server
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.01 | Map integration and testing | ✅ Complete |
+| v0.1.01 | Map integration and testing — Chernarusplus | ✅ Complete |
 
 ### Survival Stats
 | Version | Feature | Status |
@@ -44,11 +44,11 @@ The first playable version. The core survival loop tuned to feel like a serious 
 | v0.1.06 | Shock handling and recovery tuning | ✅ Complete |
 | v0.1.07 | Temperature and wetness drain rates | ✅ Complete |
 
-### Loot Economy
+### Economy Config
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.08 | globals.xml tuning — zombie counts, cleanup times, logout penalties | 🔵 In Progress |
-| v0.1.09 | types.xml loot table overhaul — spawn rates and probabilities | ⬜ Planned |
+| v0.1.08 | globals.xml tuning — zombie counts, cleanup times, logout penalties | ✅ Complete |
+| v0.1.09 | types.xml loot table overhaul — full file review and rebalance | 🔵 In Progress |
 | v0.1.10 | cfgspawnabletypes.xml — item category and location tuning | ⬜ Planned |
 | v0.1.11 | cfglimitsdefinition.xml — item limit balancing | ⬜ Planned |
 | v0.1.12 | cfgrandompresets.xml — random loot preset tuning | ⬜ Planned |
@@ -129,7 +129,7 @@ New survival systems that add a deeper layer of management beyond hunger and thi
 | v0.2.10 | Sleep state on player — vulnerable, cannot act | ⬜ Planned |
 | v0.2.11 | Energy recovery rate while sleeping | ⬜ Planned |
 | v0.2.12 | Sound and damage waking sleeping player | ⬜ Planned |
-| v0.2.13 | Sleep recovery rate difference — sleeping bag vs bed vs floor | ⬜ Planned |
+| v0.2.13 | Sleep recovery rate difference — sleeping bag vs bed vs improvised shelter | ⬜ Planned |
 | v0.2.14 | Sleep timer and early wake option | ⬜ Planned |
 
 ### Nutrition and Cooking
@@ -148,7 +148,7 @@ New survival systems that add a deeper layer of management beyond hunger and thi
 | v0.2.25 | Tier four special recipes — rare ingredients | ⬜ Planned |
 | v0.2.26 | Recipe book items and variants | ⬜ Planned |
 | v0.2.27 | Ingredient spawn locations and rarity tuning | ⬜ Planned |
-| v0.2.28 | Outfit energy drain modifiers | ⬜ Planned |
+| v0.2.28 | Outfit energy drain modifiers per tier | ⬜ Planned |
 
 ---
 
@@ -165,40 +165,87 @@ The mod begins to feel like Resurgence. Players have a moral identity and the pa
 | v0.3.03 | Karma threshold system — survivor, bandit, hero tiers | ⬜ Planned |
 | v0.3.04 | Karma persistence across sessions | ⬜ Planned |
 | v0.3.05 | Karma decay over time — bandits can reform | ⬜ Planned |
-| v0.3.06 | Bandit outfit auto assignment on karma threshold | ⬜ Planned |
-| v0.3.07 | Hero outfit auto assignment on karma threshold | ⬜ Planned |
-| v0.3.08 | Karma affecting trader prices | ⬜ Planned |
-| v0.3.09 | Karma affecting safe zone access | ⬜ Planned |
+| v0.3.06 | Karma threshold crossing detection | ⬜ Planned |
+| v0.3.07 | Bandit drum stinger sound on threshold crossing | ⬜ Planned |
+| v0.3.08 | Hero trumpet stinger sound on threshold crossing | ⬜ Planned |
+| v0.3.09 | Reversal stinger sound on threshold uncrossing | ⬜ Planned |
+| v0.3.10 | Bandit screen effect — dark vignette and red tint | ⬜ Planned |
+| v0.3.11 | Hero screen effect — warm golden light wash | ⬜ Planned |
+| v0.3.12 | Reversal screen effect — brief fade to normal | ⬜ Planned |
+| v0.3.13 | Current outfit moves to inventory on karma outfit equip | ⬜ Planned |
+| v0.3.14 | Karma outfit auto equips on threshold crossing | ⬜ Planned |
+| v0.3.15 | Karma outfit auto unequips on threshold uncrossing | ⬜ Planned |
+| v0.3.16 | Nearby player stinger broadcast via RPC | ⬜ Planned |
+| v0.3.17 | Nearby player subtle threshold notification | ⬜ Planned |
+| v0.3.18 | Status messages on threshold crossing and uncrossing | ⬜ Planned |
+| v0.3.19 | Multiple bandit outfit variants by karma depth | ⬜ Planned |
+| v0.3.20 | Multiple hero outfit variants by karma depth | ⬜ Planned |
+| v0.3.21 | Hero and bandit outfits cannot be interacted with as items | ⬜ Planned |
+| v0.3.22 | Hero and bandit outfits vanish on player death | ⬜ Planned |
+| v0.3.23 | Corpse reverts to neutral survivor outfit parcel on death | ⬜ Planned |
+| v0.3.24 | Karma affecting trader prices | ⬜ Planned |
+| v0.3.25 | Karma affecting safe zone access | ⬜ Planned |
+| v0.3.26 | Karma gated item equip restrictions | ⬜ Planned |
+| v0.3.27 | Skull balaclava bandit only restriction | ⬜ Planned |
+| v0.3.28 | Auto unequip karma gated items on threshold change | ⬜ Planned |
+| v0.3.29 | Hero armband hero only restriction | ⬜ Planned |
 
 ### Outfit Parcel System
 | Version | Feature | Status |
 |---|---|---|
-| v0.3.10 | Outfit parcel base class | ⬜ Planned |
-| v0.3.11 | Outfit parcel description system | ⬜ Planned |
-| v0.3.12 | Outfit swap mechanic with vulnerable animation | ⬜ Planned |
-| v0.3.13 | Always wearing an outfit rule enforcement | ⬜ Planned |
-| v0.3.14 | Items stay with outfit on swap | ⬜ Planned |
-| v0.3.15 | Cannot pick up outfit containing items rule | ⬜ Planned |
-| v0.3.16 | Outfit death repackaging as parcel on corpse | ⬜ Planned |
+| v0.3.30 | Outfit parcel base class | ⬜ Planned |
+| v0.3.31 | Outfit parcel description system | ⬜ Planned |
+| v0.3.32 | Outfit parcel fills multiple vanilla slots simultaneously on open | ⬜ Planned |
+| v0.3.33 | Parcel ceases to exist when outfit is worn | ⬜ Planned |
+| v0.3.34 | Parcel reappears when outfit is swapped off | ⬜ Planned |
+| v0.3.35 | Outfit swap mechanic with 4 to 5 second vulnerable animation | ⬜ Planned |
+| v0.3.36 | Always wearing an outfit rule enforcement | ⬜ Planned |
+| v0.3.37 | Items stay with outfit on swap | ⬜ Planned |
+| v0.3.38 | Cannot pick up outfit parcel containing items rule | ⬜ Planned |
+| v0.3.39 | Outfit death repackaging as parcel on corpse | ⬜ Planned |
+| v0.3.40 | Block individual clothing slot removal when outfit equipped | ⬜ Planned |
+| v0.3.41 | Outfit mouseover flavour descriptions per slot | ⬜ Planned |
+| v0.3.42 | Outfit section visually distinct from equipment in inventory | ⬜ Planned |
+
+### Outfit Clothing Config
+| Version | Feature | Status |
+|---|---|---|
+| v0.3.43 | Jacket, trouser, boot and glove damage prevention config | ⬜ Planned |
+| v0.3.44 | All individual jacket trouser boot glove variants set to nominal 0 in types.xml | ⬜ Planned |
 
 ### Outfit Variants
 | Version | Feature | Status |
 |---|---|---|
-| v0.3.17 | Civilian outfit variants — suit, tracksuit, hiking, work, casual | ⬜ Planned |
-| v0.3.18 | Hunter outfit variants — woodland, marsh, winter, ghillie | ⬜ Planned |
-| v0.3.19 | Military outfit variants — BDU, CUU, patrol, assault, medic | ⬜ Planned |
-| v0.3.20 | Specialist outfit variants — bandit, hero, mechanic, trader | ⬜ Planned |
-| v0.3.21 | Outfit slot counts per tier | ⬜ Planned |
-| v0.3.22 | Outfit weight capacity per tier | ⬜ Planned |
-| v0.3.23 | Outfit energy drain modifiers per tier | ⬜ Planned |
+| v0.3.45 | Civilian outfit variants — suit, tracksuit, hiking, work, casual | ⬜ Planned |
+| v0.3.46 | Hunter outfit variants — woodland, marsh, winter, ghillie | ⬜ Planned |
+| v0.3.47 | Military outfit variants — BDU, CUU, patrol, assault, medic | ⬜ Planned |
+| v0.3.48 | Specialist outfit variants — mechanic, trader, survivor | ⬜ Planned |
+| v0.3.49 | NBC outfit variant with acid rain protection flag | ⬜ Planned |
+| v0.3.50 | Outfit slot counts per tier | ⬜ Planned |
+| v0.3.51 | Outfit weight capacity per tier | ⬜ Planned |
+| v0.3.52 | Outfit energy drain modifiers per tier | ⬜ Planned |
+| v0.3.53 | Outfit parcel spawn table entries for all variants | ⬜ Planned |
+
+### Equipment Overlay System
+| Version | Feature | Status |
+|---|---|---|
+| v0.3.54 | Vest variants — press, leather, assault, plate carrier tiers | ⬜ Planned |
+| v0.3.55 | Helmet variants — hard hat, motorcycle, ballistic, military, assault tiers | ⬜ Planned |
+| v0.3.56 | Balaclava and face covering variants remain equippable | ⬜ Planned |
+| v0.3.57 | Gasmask and respirator as functional NBC partial protection | ⬜ Planned |
+| v0.3.58 | Glasses and goggles as cosmetic player choice | ⬜ Planned |
+| v0.3.59 | Armbands as group identification items | ⬜ Planned |
+| v0.3.60 | Vest and helmet damage affects protection values | ⬜ Planned |
+| v0.3.61 | Balaclava and glasses no damage — cosmetic only | ⬜ Planned |
 
 ### Backpack System
 | Version | Feature | Status |
 |---|---|---|
-| v0.3.24 | Backpack variants with slot counts and weight capacities | ⬜ Planned |
-| v0.3.25 | Backpack spawning as visible collapsed items | ⬜ Planned |
-| v0.3.26 | Backpack dropping separately on death | ⬜ Planned |
-| v0.3.27 | Backpack spawn locations and rarity tuning | ⬜ Planned |
+| v0.3.62 | Backpack variants with slot counts and weight capacities | ⬜ Planned |
+| v0.3.63 | Backpack spawning as visible collapsed items in world | ⬜ Planned |
+| v0.3.64 | Backpack dropping separately on death | ⬜ Planned |
+| v0.3.65 | Backpack condition affects weight capacity | ⬜ Planned |
+| v0.3.66 | Backpack spawn locations and rarity tuning | ⬜ Planned |
 
 ---
 
@@ -234,7 +281,7 @@ Players can establish a presence in the world. Bases give survivors something to
 | Version | Feature | Status |
 |---|---|---|
 | v0.4.16 | Garden plot placeable within base radius | ⬜ Planned |
-| v0.4.17 | Vegetable growing system — potatoes, carrots, cabbage, onions | ⬜ Planned |
+| v0.4.17 | Vegetable growing — potatoes, carrots, cabbage, onions | ⬜ Planned |
 | v0.4.18 | Growth timer and watering requirement | ⬜ Planned |
 | v0.4.19 | Harvest interaction and yield | ⬜ Planned |
 | v0.4.20 | Garden raiding by unauthorised players | ⬜ Planned |
@@ -261,7 +308,7 @@ The player driven economy comes online. Survivors have reasons to interact peace
 | Version | Feature | Status |
 |---|---|---|
 | v0.5.08 | Basic trader NPC framework | ⬜ Planned |
-| v0.5.09 | Trader city location design | ⬜ Planned |
+| v0.5.09 | Trader city location design on Chernarusplus | ⬜ Planned |
 | v0.5.10 | Safe zone enforcement around trader areas | ⬜ Planned |
 | v0.5.11 | Trader inventory definitions | ⬜ Planned |
 | v0.5.12 | Fixed pricing system | ⬜ Planned |
@@ -271,13 +318,34 @@ The player driven economy comes online. Survivors have reasons to interact peace
 | v0.5.16 | Safe zone violation consequences | ⬜ Planned |
 | v0.5.17 | Dynamic pricing based on supply and demand | ⬜ Planned |
 
+### Tailor System
+| Version | Feature | Status |
+|---|---|---|
+| v0.5.18 | Tailor NPC framework | ⬜ Planned |
+| v0.5.19 | Tailor outfit crafting menu | ⬜ Planned |
+| v0.5.20 | Crafting material item definitions | ⬜ Planned |
+| v0.5.21 | Fabric scraps spawn in residential areas | ⬜ Planned |
+| v0.5.22 | Military fabric spawn in military areas | ⬜ Planned |
+| v0.5.23 | Kevlar panel crash site and rare military spawn | ⬜ Planned |
+| v0.5.24 | NBC material acid rain cache and rare military spawn | ⬜ Planned |
+| v0.5.25 | Leather from animal skinning | ⬜ Planned |
+| v0.5.26 | Dye variants spawn in residential areas | ⬜ Planned |
+| v0.5.27 | Currency cost tiers per outfit category | ⬜ Planned |
+| v0.5.28 | Karma check restricting outfit availability at tailor | ⬜ Planned |
+| v0.5.29 | Hero and bandit outfits absent from tailor menu entirely | ⬜ Planned |
+| v0.5.30 | Tailor component combination restriction check | ⬜ Planned |
+| v0.5.31 | Tailor refusal dialogue for restricted combinations | ⬜ Planned |
+| v0.5.32 | Exclusive tailor only outfit designs | ⬜ Planned |
+| v0.5.33 | Multiple tailors specialising by trader city | ⬜ Planned |
+| v0.5.34 | Outfit refresh cosmetic service at tailor | ⬜ Planned |
+
 ### Vehicle Ownership
 | Version | Feature | Status |
 |---|---|---|
-| v0.5.18 | Vehicle key system — lock and unlock | ⬜ Planned |
-| v0.5.19 | Vehicle ownership persistence | ⬜ Planned |
-| v0.5.20 | Hotwiring mechanic for unowned vehicles | ⬜ Planned |
-| v0.5.21 | Vehicle storage and inventory tuning | ⬜ Planned |
+| v0.5.35 | Vehicle key system — lock and unlock | ⬜ Planned |
+| v0.5.36 | Vehicle ownership persistence | ⬜ Planned |
+| v0.5.37 | Hotwiring mechanic for unowned vehicles | ⬜ Planned |
+| v0.5.38 | Vehicle storage and inventory tuning | ⬜ Planned |
 
 ---
 
@@ -310,35 +378,55 @@ The world becomes dynamic and unpredictable. No two sessions feel the same.
 | v0.6.15 | Post horde supply cache spawn | ⬜ Planned |
 | v0.6.16 | Horde interaction with wildlife | ⬜ Planned |
 
+### Acid Rain Event
+| Version | Feature | Status |
+|---|---|---|
+| v0.6.17 | Remove contaminated zones from map | ⬜ Planned |
+| v0.6.18 | Redistribute contaminated area loot to new locations | ⬜ Planned |
+| v0.6.19 | Dynamic acid rain event manager | ⬜ Planned |
+| v0.6.20 | Acid rain warning phase and radio announcement | ⬜ Planned |
+| v0.6.21 | Warning phase 3 to 5 minutes before acid rain begins | ⬜ Planned |
+| v0.6.22 | Acid rain damage for unprotected players | ⬜ Planned |
+| v0.6.23 | NBC outfit full protection check during acid rain | ⬜ Planned |
+| v0.6.24 | Gasmask required alongside NBC outfit for full protection | ⬜ Planned |
+| v0.6.25 | Partial protection for incomplete NBC equipment | ⬜ Planned |
+| v0.6.26 | Indoor and vehicle safety during acid rain | ⬜ Planned |
+| v0.6.27 | Acid rain visual effects — green yellow tinted rain | ⬜ Planned |
+| v0.6.28 | Acid rain audio effects — distinctive sound from normal rain | ⬜ Planned |
+| v0.6.29 | Anti acid injector item as emergency short term protection | ⬜ Planned |
+| v0.6.30 | NBC suit condition affecting protection level | ⬜ Planned |
+| v0.6.31 | Acid rain duration and dispersal phase | ⬜ Planned |
+
 ### AI Bandit System
 | Version | Feature | Status |
 |---|---|---|
-| v0.6.17 | AI bandit framework and base class | ⬜ Planned |
-| v0.6.18 | Crash site AI guardian spawning | ⬜ Planned |
-| v0.6.19 | Crash site AI patrol behaviour | ⬜ Planned |
-| v0.6.20 | Crash site AI combat behaviour | ⬜ Planned |
-| v0.6.21 | Crash site AI scaling to server population | ⬜ Planned |
-| v0.6.22 | Crash site AI loot definitions | ⬜ Planned |
-| v0.6.23 | Crash site AI despawn when site goes cold | ⬜ Planned |
-| v0.6.24 | Roaming AI spawn manager | ⬜ Planned |
-| v0.6.25 | Distance based spawn bubble per player | ⬜ Planned |
-| v0.6.26 | Spawn probability by location type | ⬜ Planned |
-| v0.6.27 | Spawn chance reduction near active zombies | ⬜ Planned |
-| v0.6.28 | Global AI population cap | ⬜ Planned |
-| v0.6.29 | AI scaling by server population | ⬜ Planned |
-| v0.6.30 | Roaming AI despawn when out of range | ⬜ Planned |
-| v0.6.31 | Scavenger tier AI | ⬜ Planned |
-| v0.6.32 | Bandit tier AI | ⬜ Planned |
-| v0.6.33 | Veteran tier AI | ⬜ Planned |
-| v0.6.34 | AI kills do not affect karma | ⬜ Planned |
+| v0.6.32 | AI bandit framework and base class | ⬜ Planned |
+| v0.6.33 | Crash site AI guardian spawning | ⬜ Planned |
+| v0.6.34 | Crash site AI patrol behaviour | ⬜ Planned |
+| v0.6.35 | Crash site AI combat behaviour — cover, suppress, flank | ⬜ Planned |
+| v0.6.36 | Crash site AI scaling to server population | ⬜ Planned |
+| v0.6.37 | Crash site AI loot definitions | ⬜ Planned |
+| v0.6.38 | Crash site AI despawn when site goes cold | ⬜ Planned |
+| v0.6.39 | Roaming AI spawn manager | ⬜ Planned |
+| v0.6.40 | Distance based spawn bubble per player | ⬜ Planned |
+| v0.6.41 | Spawn probability by location type | ⬜ Planned |
+| v0.6.42 | Spawn chance reduction near active zombies | ⬜ Planned |
+| v0.6.43 | Global AI population cap | ⬜ Planned |
+| v0.6.44 | AI population scaling by server population | ⬜ Planned |
+| v0.6.45 | Roaming AI despawn when out of range | ⬜ Planned |
+| v0.6.46 | Scavenger tier AI — civilian gear, basic weapons | ⬜ Planned |
+| v0.6.47 | Bandit tier AI — military gear, rifles | ⬜ Planned |
+| v0.6.48 | Veteran tier AI — high tier gear, suppressed weapons | ⬜ Planned |
+| v0.6.49 | AI kills do not affect player karma | ⬜ Planned |
+| v0.6.50 | Predator interaction with zombie hordes | ⬜ Planned |
 
 ### Additional Events
 | Version | Feature | Status |
 |---|---|---|
-| v0.6.35 | Supply drop event | ⬜ Planned |
-| v0.6.36 | Bandit camp event | ⬜ Planned |
-| v0.6.37 | Survivor rescue event | ⬜ Planned |
-| v0.6.38 | Event manager scheduling system | ⬜ Planned |
+| v0.6.51 | Supply drop event | ⬜ Planned |
+| v0.6.52 | Bandit camp event | ⬜ Planned |
+| v0.6.53 | Survivor rescue event | ⬜ Planned |
+| v0.6.54 | Event manager scheduling system | ⬜ Planned |
 
 ---
 
@@ -372,7 +460,7 @@ The skies open up. Transportation and reconnaissance change the strategic landsc
 | v0.8.03 | Client server sync for helicopter physics | ⬜ Planned |
 | v0.8.04 | UH-1H Huey equivalent | ⬜ Planned |
 | v0.8.05 | Light scout helicopter equivalent | ⬜ Planned |
-| v0.8.06 | Helicopter spawn locations | ⬜ Planned |
+| v0.8.06 | Helicopter spawn locations on Chernarusplus | ⬜ Planned |
 | v0.8.07 | Helicopter condition on spawn tuning | ⬜ Planned |
 | v0.8.08 | Helicopter fuel system | ⬜ Planned |
 | v0.8.09 | Helicopter repair requirements | ⬜ Planned |
@@ -384,7 +472,7 @@ The skies open up. Transportation and reconnaissance change the strategic landsc
 ## v0.9 — Air Superiority
 > *Armed Helicopters*
 
-The most technically challenging milestone. Armed helicopters redefine the threat landscape.
+The most technically challenging milestone. Armed helicopters redefine the threat landscape and recreate one of the most iconic Epoch experiences.
 
 | Version | Feature | Status |
 |---|---|---|
@@ -429,7 +517,7 @@ Everything is in place. This phase is about making it feel right.
 ## v1.0 — Release
 > *DayZ Resurgence*
 
-The full Resurgence experience.
+The full Resurgence experience. A faithful and complete evolution of the classic DayZ mod era.
 
 | Version | Feature | Status |
 |---|---|---|
@@ -442,6 +530,20 @@ The full Resurgence experience.
 
 ---
 
+## Community and Outreach
+
+| Milestone | Task | Status |
+|---|---|---|
+| Pre-release | Create Discord server | ⬜ Planned |
+| Pre-release | YouTube channel setup | ⬜ Planned |
+| v0.5 complete | Begin Reddit development posts | ⬜ Planned |
+| v0.7 complete | Contact Scalespeeder Gaming | ⬜ Planned |
+| v0.7 complete | Contact other DayZ content creators | ⬜ Planned |
+| v0.9 complete | Press release to DayZ community sites | ⬜ Planned |
+| v1.0 | Full public launch | ⬜ Planned |
+
+---
+
 ## Beyond v1.0
 
 Features under consideration for post release development:
@@ -450,26 +552,13 @@ Features under consideration for post release development:
 - Additional helicopter variants including fixed wing aircraft
 - Expanded trader inventories
 - Seasonal events
-- Additional map support
+- Additional map support including ChernarusA2 when available
 - Expanded recipe system
 - Advanced group and clan features
-- Community suggested features
-- Quests and mission system expansion
 - Fishing system
 - Advanced animal taming
-
----
-
-## Community and Outreach
-
-| Milestone | Task | Status |
-|---|---|---|
-| Pre-release | Create Discord server | ⬜ Planned |
-| Pre-release | YouTube channel setup | ⬜ Planned |
-| v0.5 complete | Begin Reddit development posts | ⬜ Planned |
-| v0.7 complete | Contact other DayZ content creators | ⬜ Planned |
-| v0.9 complete | Press release to DayZ community sites | ⬜ Planned |
-| v1.0 | Full public launch | ⬜ Planned |
+- Community suggested features
+- Quests and mission system expansion
 
 ---
 
