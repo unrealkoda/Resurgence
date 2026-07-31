@@ -467,7 +467,6 @@ Features under consideration for post release development:
 | Pre-release | Create Discord server | ⬜ Planned |
 | Pre-release | YouTube channel setup | ⬜ Planned |
 | v0.5 complete | Begin Reddit development posts | ⬜ Planned |
-| v0.7 complete | Contact Scalespeeder Gaming | ⬜ Planned |
 | v0.7 complete | Contact other DayZ content creators | ⬜ Planned |
 | v0.9 complete | Press release to DayZ community sites | ⬜ Planned |
 | v1.0 | Full public launch | ⬜ Planned |
