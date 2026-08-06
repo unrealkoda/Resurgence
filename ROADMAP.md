@@ -59,61 +59,65 @@ The first playable version. The core survival loop tuned to feel like a serious 
 ### Economy Config
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.08 | globals.xml tuning — zombie counts, cleanup times, logout penalties | ✅ Complete |
+| v0.1.08 | globals.xml tuning — infected counts, cleanup times, logout penalties | ✅ Complete |
 | v0.1.09 | types.xml loot table overhaul — full file review and rebalance | 🔵 In Progress |
 | v0.1.10 | cfgspawnabletypes.xml — item category and location tuning | ⬜ Planned |
 | v0.1.11 | cfglimitsdefinition.xml — item limit balancing | ⬜ Planned |
 | v0.1.12 | cfgrandompresets.xml — random loot preset tuning | ⬜ Planned |
 
-### Zombie Tuning
+### Infected Tuning
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.13 | Zombie spawn counts and density by area | ⬜ Planned |
-| v0.1.14 | Zombie aggression, vision and hearing ranges | ⬜ Planned |
-| v0.1.15 | Zombie attraction to gunshots | ⬜ Planned |
-| v0.1.16 | Zombie horde formation at high value locations | ⬜ Planned |
+| v0.1.13 | Infected spawn counts and density by area | ⬜ Planned |
+| v0.1.14 | Infected aggression, vision and hearing ranges | ⬜ Planned |
+| v0.1.15 | Infected attraction to gunshots | ⬜ Planned |
+| v0.1.16 | Infected horde formation at high value locations | ⬜ Planned |
+| v0.1.17 | Infected movement capped to walk speed inside buildings | ⬜ Planned |
+| v0.1.18 | Interior position detection for infected speed cap | ⬜ Planned |
+| v0.1.19 | Immediate speed transition on building entry and exit | ⬜ Planned |
+| v0.1.20 | Performance optimised position check on timer not per frame | ⬜ Planned |
 
 ### Animal Tuning
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.17 | Passive animal spawns — deer, rabbits, chickens | ⬜ Planned |
-| v0.1.18 | Animal flee behaviour tuned for hunting playstyle | ⬜ Planned |
-| v0.1.19 | Bear and wolf coexistence — both spawn together | ⬜ Planned |
-| v0.1.20 | Wolf pack size behaviour — wary of bears when small pack | ⬜ Planned |
-| v0.1.21 | Bear agitation threshold — aggressive when three or more wolves nearby | ⬜ Planned |
-| v0.1.22 | Predator spawn location and density tuning | ⬜ Planned |
+| v0.1.21 | Passive animal spawns — deer, rabbits, chickens | ⬜ Planned |
+| v0.1.22 | Animal flee behaviour tuned for hunting playstyle | ⬜ Planned |
+| v0.1.23 | Bear and wolf coexistence — both spawn together | ⬜ Planned |
+| v0.1.24 | Wolf pack size behaviour — wary of bears when small pack | ⬜ Planned |
+| v0.1.25 | Bear agitation threshold — aggressive when three or more wolves nearby | ⬜ Planned |
+| v0.1.26 | Predator spawn location and density tuning | ⬜ Planned |
 
 ### Sound and Stealth
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.23 | Weapon sound radius values per weapon type | ⬜ Planned |
-| v0.1.24 | Suppressor effectiveness tuning | ⬜ Planned |
-| v0.1.25 | Fire and smoke visibility distances | ⬜ Planned |
-| v0.1.26 | Animal reaction to gunshot sounds | ⬜ Planned |
+| v0.1.27 | Weapon sound radius values per weapon type | ⬜ Planned |
+| v0.1.28 | Suppressor effectiveness tuning | ⬜ Planned |
+| v0.1.29 | Fire and smoke visibility distances | ⬜ Planned |
+| v0.1.30 | Animal reaction to gunshot sounds | ⬜ Planned |
 
 ### Weather and Environment
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.27 | cfgweather.xml — weather cycle tuning | ⬜ Planned |
-| v0.1.28 | Day night cycle tuning | ⬜ Planned |
-| v0.1.29 | cfgenvironment.xml — ambient life tuning | ⬜ Planned |
+| v0.1.31 | cfgweather.xml — weather cycle tuning | ⬜ Planned |
+| v0.1.32 | Day night cycle tuning | ⬜ Planned |
+| v0.1.33 | cfgenvironment.xml — ambient life tuning | ⬜ Planned |
 
 ### Medical Tuning
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.30 | Medical item effectiveness values | ⬜ Planned |
-| v0.1.31 | Bleeding rates from different wound types | ⬜ Planned |
-| v0.1.32 | Disease and infection threshold tuning | ⬜ Planned |
-| v0.1.33 | Pain system extension — tracked value driving screen and weapon effects | ⬜ Planned |
-| v0.1.34 | Arm fracture extension from vanilla leg system | ⬜ Planned |
-| v0.1.35 | Cardiac event system and epi-pen item | ⬜ Planned |
-| v0.1.36 | New medical items — vitamins, activated charcoal | ⬜ Planned |
+| v0.1.34 | Medical item effectiveness values | ⬜ Planned |
+| v0.1.35 | Bleeding rates from different wound types | ⬜ Planned |
+| v0.1.36 | Disease and infection threshold tuning | ⬜ Planned |
+| v0.1.37 | Pain system extension — tracked value driving screen and weapon effects | ⬜ Planned |
+| v0.1.38 | Arm fracture extension from vanilla leg system | ⬜ Planned |
+| v0.1.39 | Cardiac event system and epi-pen item | ⬜ Planned |
+| v0.1.40 | New medical items — vitamins, activated charcoal | ⬜ Planned |
 
 ### Player Spawn
 | Version | Feature | Status |
 |---|---|---|
-| v0.1.37 | cfgplayerspawnpoints.xml — spawn location tuning | ⬜ Planned |
-| v0.1.38 | Starting gear and loadout definition | ⬜ Planned |
+| v0.1.41 | cfgplayerspawnpoints.xml — spawn location tuning | ⬜ Planned |
+| v0.1.42 | Starting gear and loadout definition | ⬜ Planned |
 
 ---
 
@@ -394,7 +398,7 @@ The player driven economy comes online. Survivors have reasons to interact peace
 | v0.5.68 | Lockpick success chance calculation with modifiers | ⬜ Planned |
 | v0.5.69 | Lockpick consumed on use regardless of success | ⬜ Planned |
 | v0.5.70 | Failed lockpick damages lock over multiple attempts | ⬜ Planned |
-| v0.5.71 | Lockpick sound attracting nearby zombies | ⬜ Planned |
+| v0.5.71 | Lockpick sound attracting nearby infected | ⬜ Planned |
 | v0.5.72 | Hotwire mechanic — interior only | ⬜ Planned |
 | v0.5.73 | Hotwire kit item variants | ⬜ Planned |
 | v0.5.74 | Hotwire success chance with modifiers | ⬜ Planned |
@@ -439,13 +443,13 @@ The world becomes dynamic and unpredictable. No two sessions feel the same.
 | v0.6.05 | Smoke column visible by day | ⬜ Planned |
 | v0.6.06 | Fire glow visible by night | ⬜ Planned |
 | v0.6.07 | Crash site loot table definitions | ⬜ Planned |
-| v0.6.08 | Zombie horde attached to crash site | ⬜ Planned |
+| v0.6.08 | Infected horde attached to crash site | ⬜ Planned |
 | v0.6.09 | Server announcement system | ⬜ Planned |
 
-### Zombie Horde Events
+### Infected Horde Events
 | Version | Feature | Status |
 |---|---|---|
-| v0.6.10 | Zombie horde event manager | ⬜ Planned |
+| v0.6.10 | Infected horde event manager | ⬜ Planned |
 | v0.6.11 | Horde composition and scaling by server population | ⬜ Planned |
 | v0.6.12 | Horde movement toward sound sources | ⬜ Planned |
 | v0.6.13 | Horde lifecycle — spawning, active, dispersing | ⬜ Planned |
@@ -485,7 +489,7 @@ The world becomes dynamic and unpredictable. No two sessions feel the same.
 | v0.6.39 | Roaming AI spawn manager | ⬜ Planned |
 | v0.6.40 | Distance based spawn bubble per player | ⬜ Planned |
 | v0.6.41 | Spawn probability by location type | ⬜ Planned |
-| v0.6.42 | Spawn chance reduction near active zombies | ⬜ Planned |
+| v0.6.42 | Spawn chance reduction near active infected | ⬜ Planned |
 | v0.6.43 | Global AI population cap | ⬜ Planned |
 | v0.6.44 | AI population scaling by server population | ⬜ Planned |
 | v0.6.45 | Roaming AI despawn when out of range | ⬜ Planned |
@@ -493,7 +497,7 @@ The world becomes dynamic and unpredictable. No two sessions feel the same.
 | v0.6.47 | Bandit tier AI — military gear, rifles | ⬜ Planned |
 | v0.6.48 | Veteran tier AI — high tier gear, suppressed weapons | ⬜ Planned |
 | v0.6.49 | AI kills do not affect player karma | ⬜ Planned |
-| v0.6.50 | Predator interaction with zombie hordes | ⬜ Planned |
+| v0.6.50 | Predator interaction with infected hordes | ⬜ Planned |
 
 ### Tornado Event System
 | Version | Feature | Status |
@@ -663,7 +667,7 @@ Console DayZ does not support mods. The console version is a server configuratio
 |---|---|
 | Survival stat tuning | ✅ Full |
 | Loot economy overhaul | ✅ Full |
-| Zombie tuning | ✅ Full |
+| Infected tuning | ✅ Full |
 | Animal behaviour tuning | ✅ Full |
 | Weather and temperature | ✅ Full |
 | Medical system tuning | ✅ Full |
@@ -678,6 +682,7 @@ Console DayZ does not support mods. The console version is a server configuratio
 | Custom HUD elements | ❌ Requires mod scripting |
 | Tornado event | ❌ Requires mod scripting |
 | Acid rain event | ❌ Requires mod scripting |
+| Infected walk speed indoors | ❌ Requires mod scripting |
 
 ### Console Milestones
 | Milestone | Task | Status |
