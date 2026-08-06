@@ -24,6 +24,18 @@ DayZ Resurgence is built in a specific order. Config and script based work comes
 
 ---
 
+## Dependencies
+
+DayZ Resurgence is built to be as independent as possible. The only external dependencies are:
+
+| Mod | Modules | Purpose |
+|---|---|---|
+| DayZ Expansion | Core, Vehicles | Helicopter flight model foundation |
+
+All other systems including economy, karma, base building, AI, trader and event systems are built independently by the Resurgence team.
+
+---
+
 ## v0.1 — Foundation
 > *Making The World Feel Right*
 
@@ -324,7 +336,7 @@ The player driven economy comes online. Survivors have reasons to interact peace
 | v0.5.18 | Tailor NPC framework | ⬜ Planned |
 | v0.5.19 | Tailor outfit crafting menu | ⬜ Planned |
 | v0.5.20 | Crafting material item definitions | ⬜ Planned |
-| v0.5.21 | Fabric scraps spawn — use existing Fabric item, expand to Town and Village | ⬜ Planned |
+| v0.5.21 | Fabric item expanded to Town and Village spawn locations | ⬜ Planned |
 | v0.5.22 | Military fabric spawn in military areas | ⬜ Planned |
 | v0.5.23 | Kevlar panel crash site and rare military spawn | ⬜ Planned |
 | v0.5.24 | NBC material acid rain cache and rare military spawn | ⬜ Planned |
@@ -347,7 +359,7 @@ The player driven economy comes online. Survivors have reasons to interact peace
 | v0.5.37 | Hotwiring mechanic for unowned vehicles | ⬜ Planned |
 | v0.5.38 | Vehicle storage and inventory tuning | ⬜ Planned |
 
-### Vehicle System Overhaul
+### Vehicle Repair System
 | Version | Feature | Status |
 |---|---|---|
 | v0.5.39 | Vehicle component condition tracking | ⬜ Planned |
@@ -483,13 +495,43 @@ The world becomes dynamic and unpredictable. No two sessions feel the same.
 | v0.6.49 | AI kills do not affect player karma | ⬜ Planned |
 | v0.6.50 | Predator interaction with zombie hordes | ⬜ Planned |
 
+### Tornado Event System
+| Version | Feature | Status |
+|---|---|---|
+| v0.6.51 | Weather condition monitoring for tornado formation | ⬜ Planned |
+| v0.6.52 | Condition based tornado trigger system | ⬜ Planned |
+| v0.6.53 | Environmental warning signs — sky colour, wind, animal flee | ⬜ Planned |
+| v0.6.54 | Radio warning broadcast to all players | ⬜ Planned |
+| v0.6.55 | Tornado funnel mesh creation in Blender | ⬜ Planned |
+| v0.6.56 | Two layer scrolling texture system — dark base and transparent top | ⬜ Planned |
+| v0.6.57 | Counter rotating texture layers for depth effect | ⬜ Planned |
+| v0.6.58 | Funnel mesh import and material setup in Workbench | ⬜ Planned |
+| v0.6.59 | Tornado mesh rotation via Enforce Script | ⬜ Planned |
+| v0.6.60 | Tornado formation animation — scale up from zero | ⬜ Planned |
+| v0.6.61 | Tornado movement path system across map | ⬜ Planned |
+| v0.6.62 | Directional approach audio — distant roar to freight train | ⬜ Planned |
+| v0.6.63 | Player damage zones by proximity | ⬜ Planned |
+| v0.6.64 | Player movement impairment in wind zones | ⬜ Planned |
+| v0.6.65 | Vehicle damage and physics interaction | ⬜ Planned |
+| v0.6.66 | Structure damage in tornado path | ⬜ Planned |
+| v0.6.67 | Item scattering along tornado path | ⬜ Planned |
+| v0.6.68 | Post tornado debris field loot opportunity | ⬜ Planned |
+| v0.6.69 | Building detection system for tornado path | ⬜ Planned |
+| v0.6.70 | Tornado mesh lifts above rooftop level in built up areas | ⬜ Planned |
+| v0.6.71 | Interior render exclusion as fallback for mesh clipping | ⬜ Planned |
+| v0.6.72 | Ground debris particles play at street level during building pass | ⬜ Planned |
+| v0.6.73 | Pre calculated building height map for Chernarusplus | ⬜ Planned |
+| v0.6.74 | Audio system maintains full intensity inside buildings | ⬜ Planned |
+| v0.6.75 | Tornado dissipation and cleanup | ⬜ Planned |
+| v0.6.76 | Performance optimisation for tornado simulation | ⬜ Planned |
+
 ### Additional Events
 | Version | Feature | Status |
 |---|---|---|
-| v0.6.51 | Supply drop event | ⬜ Planned |
-| v0.6.52 | Bandit camp event | ⬜ Planned |
-| v0.6.53 | Survivor rescue event | ⬜ Planned |
-| v0.6.54 | Event manager scheduling system | ⬜ Planned |
+| v0.6.77 | Supply drop event | ⬜ Planned |
+| v0.6.78 | Bandit camp event | ⬜ Planned |
+| v0.6.79 | Survivor rescue event | ⬜ Planned |
+| v0.6.80 | Event manager scheduling system | ⬜ Planned |
 
 ---
 
@@ -512,34 +554,38 @@ Survivors can create what they cannot find. Crafting rewards knowledge and resou
 ---
 
 ## v0.8 — Flight
-> *Unarmed Helicopters*
+> *Helicopters via DayZ Expansion Core and Vehicles*
 
-The skies open up. Transportation and reconnaissance change the strategic landscape entirely.
+Flyable helicopters implemented through DayZ Expansion Core and Vehicles as required dependencies. Armed helicopter systems built on top of Expansion's flight foundation.
 
+### Dependencies Added
+| Dependency | Reason |
+|---|---|
+| DayZ Expansion Core | Required framework for Expansion Vehicles |
+| DayZ Expansion Vehicles | Helicopter flight model and vehicle physics |
+
+### Helicopter Features
 | Version | Feature | Status |
 |---|---|---|
-| v0.8.01 | Helicopter flight model research from Expansion GitHub | ⬜ Planned |
-| v0.8.02 | Custom helicopter base class independent of Expansion | ⬜ Planned |
-| v0.8.03 | Client server sync for helicopter physics | ⬜ Planned |
-| v0.8.04 | UH-1H Huey equivalent | ⬜ Planned |
-| v0.8.05 | Light scout helicopter equivalent | ⬜ Planned |
-| v0.8.06 | Helicopter spawn locations on Chernarusplus | ⬜ Planned |
-| v0.8.07 | Helicopter condition on spawn tuning | ⬜ Planned |
-| v0.8.08 | Helicopter fuel system | ⬜ Planned |
-| v0.8.09 | Helicopter repair requirements | ⬜ Planned |
-| v0.8.10 | Helicopter sound radius values | ⬜ Planned |
-| v0.8.11 | Helicopter crash behaviour | ⬜ Planned |
+| v0.8.01 | DayZ Expansion Core and Vehicles integrated as dependencies | ⬜ Planned |
+| v0.8.02 | Expansion helicopter variants configured for Resurgence | ⬜ Planned |
+| v0.8.03 | Helicopter spawn locations on Chernarusplus | ⬜ Planned |
+| v0.8.04 | Helicopter condition on spawn tuning | ⬜ Planned |
+| v0.8.05 | Helicopter fuel system tuning | ⬜ Planned |
+| v0.8.06 | Helicopter sound radius values | ⬜ Planned |
+| v0.8.07 | Helicopter loot table integration | ⬜ Planned |
+| v0.8.08 | Helicopter crash behaviour | ⬜ Planned |
 
 ---
 
 ## v0.9 — Air Superiority
-> *Armed Helicopters*
+> *Armed Helicopters built on Expansion foundation*
 
 The most technically challenging milestone. Armed helicopters redefine the threat landscape and recreate one of the most iconic Epoch experiences.
 
 | Version | Feature | Status |
 |---|---|---|
-| v0.9.01 | Gunner seat framework | ⬜ Planned |
+| v0.9.01 | Gunner seat framework built on Expansion vehicle class | ⬜ Planned |
 | v0.9.02 | Gunner camera and input system | ⬜ Planned |
 | v0.9.03 | Mounted weapon base class | ⬜ Planned |
 | v0.9.04 | Projectile spawning from moving vehicle | ⬜ Planned |
@@ -610,10 +656,7 @@ The full Resurgence experience. A faithful and complete evolution of the classic
 ## Console Version — DayZ Resurgence Lite
 
 ### Important Note
-Console DayZ does not support mods. The console version 
-is a server configuration package applied at the server 
-level. Players join a console server running these configs 
-and experience Resurgence tuning without downloading anything.
+Console DayZ does not support mods. The console version is a server configuration package applied at the server level. Players join a console server running these configs and experience Resurgence tuning without downloading anything.
 
 ### What Console Players Experience
 | Feature | Available |
@@ -633,6 +676,8 @@ and experience Resurgence tuning without downloading anything.
 | Vehicle overhaul | ❌ Requires mod scripting |
 | Dynamic world events | ❌ Requires mod scripting |
 | Custom HUD elements | ❌ Requires mod scripting |
+| Tornado event | ❌ Requires mod scripting |
+| Acid rain event | ❌ Requires mod scripting |
 
 ### Console Milestones
 | Milestone | Task | Status |
@@ -659,6 +704,9 @@ Features under consideration for post release development:
 - Advanced animal taming
 - Community suggested features
 - Quests and mission system expansion
+- Tsunami event system
+- Blizzard weather event
+- Sandstorm weather event
 
 ---
 
@@ -686,9 +734,7 @@ DayZ Resurgence draws inspiration from and builds upon the legacy of:
 
 ## A Note On Timelines
 
-DayZ Resurgence is a passion project developed by Unreal Koda and contributors.
-No release dates are promised. Each version releases when it is ready and stable.
-Quality over speed is the guiding principle of this project.
+DayZ Resurgence is a passion project developed by Unreal Koda and contributors. No release dates are promised. Each version releases when it is ready and stable. Quality over speed is the guiding principle of this project.
 
 ---
 
